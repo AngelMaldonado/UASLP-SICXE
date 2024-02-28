@@ -1,0 +1,6 @@
+D:\Dev\Repos\UASLP\Fundamentos de Sistemas\Practica 2\obj\Debug\SICXELexer.cs
+D:\Dev\Repos\UASLP\Fundamentos de Sistemas\Practica 2\obj\Debug\SICXEParser.cs
+D:\Dev\Repos\UASLP\Fundamentos de Sistemas\Practica 2\obj\Debug\SICXEListener.cs
+D:\Dev\Repos\UASLP\Fundamentos de Sistemas\Practica 2\obj\Debug\SICXEBaseListener.cs
+D:\Dev\Repos\UASLP\Fundamentos de Sistemas\Practica 2\obj\Debug\SICXEVisitor.cs
+D:\Dev\Repos\UASLP\Fundamentos de Sistemas\Practica 2\obj\Debug\SICXEBaseVisitor.cs

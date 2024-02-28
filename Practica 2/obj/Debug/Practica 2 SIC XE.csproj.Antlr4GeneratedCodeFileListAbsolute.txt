@@ -1,0 +1,6 @@
+C:\Users\erika\Desktop\uni\uni\11 semestre\Labo de fundamentos de SW\Practica 2\Practica 2 SIC XE\obj\Debug\SICXELexer.cs
+C:\Users\erika\Desktop\uni\uni\11 semestre\Labo de fundamentos de SW\Practica 2\Practica 2 SIC XE\obj\Debug\SICXEParser.cs
+C:\Users\erika\Desktop\uni\uni\11 semestre\Labo de fundamentos de SW\Practica 2\Practica 2 SIC XE\obj\Debug\SICXEListener.cs
+C:\Users\erika\Desktop\uni\uni\11 semestre\Labo de fundamentos de SW\Practica 2\Practica 2 SIC XE\obj\Debug\SICXEBaseListener.cs
+C:\Users\erika\Desktop\uni\uni\11 semestre\Labo de fundamentos de SW\Practica 2\Practica 2 SIC XE\obj\Debug\SICXEVisitor.cs
+C:\Users\erika\Desktop\uni\uni\11 semestre\Labo de fundamentos de SW\Practica 2\Practica 2 SIC XE\obj\Debug\SICXEBaseVisitor.cs
