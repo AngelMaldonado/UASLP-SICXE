@@ -49,13 +49,14 @@
             this.archivoIntermedioLabel = new System.Windows.Forms.Label();
             this.CONTLOCPanel = new System.Windows.Forms.Panel();
             this.CONTLOCDataGridView = new System.Windows.Forms.DataGridView();
-            this.codigo = new PracticaSICXE.controles.TextBoxEnumerado();
             this.LN = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ETIQ = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.INS = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.OPER = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MODO = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ERRORES = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.codigo = new PracticaSICXE.controles.TextBoxEnumerado();
             this.statusStrip.SuspendLayout();
             this.toolStrip.SuspendLayout();
             this.tabsPanel.SuspendLayout();
@@ -295,7 +296,8 @@
             this.ETIQ,
             this.INS,
             this.OPER,
-            this.MODO});
+            this.MODO,
+            this.ERRORES});
             this.CONTLOCDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CONTLOCDataGridView.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.CONTLOCDataGridView.Location = new System.Drawing.Point(0, 8);
@@ -305,18 +307,6 @@
             this.CONTLOCDataGridView.RowTemplate.Height = 24;
             this.CONTLOCDataGridView.Size = new System.Drawing.Size(709, 517);
             this.CONTLOCDataGridView.TabIndex = 0;
-            // 
-            // codigo
-            // 
-            this.codigo.BackColor = System.Drawing.SystemColors.Window;
-            this.codigo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.codigo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.codigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.codigo.Location = new System.Drawing.Point(3, 3);
-            this.codigo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.codigo.Name = "codigo";
-            this.codigo.Size = new System.Drawing.Size(1032, 556);
-            this.codigo.TabIndex = 4;
             // 
             // LN
             // 
@@ -360,11 +350,31 @@
             // 
             // MODO
             // 
-            this.MODO.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
             this.MODO.HeaderText = "MODO";
             this.MODO.MinimumWidth = 6;
             this.MODO.Name = "MODO";
             this.MODO.ReadOnly = true;
+            this.MODO.Width = 104;
+            // 
+            // ERRORES
+            // 
+            this.ERRORES.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.ERRORES.HeaderText = "ERRORES";
+            this.ERRORES.MinimumWidth = 6;
+            this.ERRORES.Name = "ERRORES";
+            this.ERRORES.ReadOnly = true;
+            // 
+            // codigo
+            // 
+            this.codigo.BackColor = System.Drawing.SystemColors.Window;
+            this.codigo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.codigo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.codigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.codigo.Location = new System.Drawing.Point(3, 3);
+            this.codigo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.codigo.Name = "codigo";
+            this.codigo.Size = new System.Drawing.Size(1032, 556);
+            this.codigo.TabIndex = 4;
             // 
             // MainForm
             // 
@@ -425,6 +435,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn INS;
         private System.Windows.Forms.DataGridViewTextBoxColumn OPER;
         private System.Windows.Forms.DataGridViewTextBoxColumn MODO;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ERRORES;
     }
 }
 

@@ -40,7 +40,7 @@ namespace PracticaSICXE
             //se evalua que se tenga cargado un archivo
             if (codigo.RichTextBox.Text != "")
             {
-                //[nuevo]guarda los cambios
+                //guarda los cambios
                 File.WriteAllText(archivo.Text, codigo.RichTextBox.Text);
 
                 // Interpreta el código
@@ -57,10 +57,10 @@ namespace PracticaSICXE
             else MessageBox.Show("Cargue un archivo");
         }
 
-        //[nuevo]muestra el resultado de la interpretación en las tablas SICXE
+        //muestra el resultado de la interpretación en las tablas SICXE
         private void ActualizaTablasSICXE()
         {
-            //[nuevo]si ya hay almenos un cp
+            //si ya hay almenos un cp
             if (Arquitectura.ResultadosParse.Count > 0)
             {
                 CONTLOCDataGridView.Rows.Clear();
@@ -75,7 +75,8 @@ namespace PracticaSICXE
                         resultado.etiqueta,
                         resultado.instruccion,
                         resultado.operando,
-                        resultado.error ? resultado.msgerror : resultado.modo
+                        resultado.modo,
+                        resultado.msgerror
                     });
                     if (resultado.error)
                         CONTLOCDataGridView.Rows[CONTLOCDataGridView.Rows.Count - 1].DefaultCellStyle.BackColor = Color.Red;
